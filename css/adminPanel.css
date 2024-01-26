@@ -1,0 +1,15 @@
+        /* admin panel */
+        .summary-kategori{
+            background-color: #011216;
+            border-radius: 15px;
+        }
+        .summary-produk{
+            background-color: #220360;
+            border-radius: 15px;
+        }
+        .no-decoration{
+            text-decoration: none;
+        }
+        p .no-decoration:hover{
+            color: white;
+        }

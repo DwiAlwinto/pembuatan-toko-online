@@ -1,0 +1,35 @@
+Toko Online Toko Azhari
+
+Global Requirement :
+	1. Website terdiri dari 3 halaman (home/utama, produk, tentang kami).
+	2. Terdiri dari beberapa kategori(Baju pria, baju wanita, celama, jam tangan, sepatu, dll)
+	3. Produk wajib punya kategori
+	4. Produk bisa punya foto(boleh kosong kalau belum ada).
+	5. Produk punya penjelasan detail(bisa menjelesakan tentang diskripsi, ukuran dll)
+	6. Produk punya status ketersediaan stok (habis atau tersedia)
+	7. Pengujung website bisa mencari produk berdasarkan nama produk.
+	8. Website hanya pemasaran produk, pemesanan dan pemebelian by whatsapp and antar bank
+	9. Hanya ada 1 ADMIN untuk mengatur website (untuk mengatur toko online)
+	10. Website menampikan akun media social toko
+	11. Tampilan Website responsive desktop dan mobile
+	
+	
+Halaman Utama Requirement :
+	1. Tersedia menu pencarian
+	2. Higlight kategori baju pria dan wanita dan sepatu.
+	3. Tampilkan section tentang kami
+	4. Tampilkan 6 Produk dan ada tombol see more di bawahnya. di klik menuju halaman 
+	5. Tampikan social media dan kontak whatsapp
+
+Halaman Produk :
+	1. Secara default, halaman produk menampilkan semua produk tanpa terfilter kategori
+	2. Produk bisa terfilter sesuai kategori yang terpilih
+	3. Produk menampilkan foto, nama, harga, dan button ke halaman detail
+
+
+Halaman tentan kami :
+	1. Menampikan foto yang berkaitan dengan toko.
+	2. Menampilkan text toko.
+ 
+
+

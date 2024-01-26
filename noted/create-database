@@ -1,0 +1,46 @@
+Membuat Database :
+	tabel users :
+	CREATE TABLE users (
+			    id int AUTO_INCREMENT PRIMARY KEY,
+			    username varchar(50),
+			    PASSWORD varchar(255)
+			   )
+			
+	tabel ketegori :
+	CREATE TABLE kategori (
+			    id int AUTO_INCREMENT PRIMARY KEY,
+			    kategori varchar(100)
+			)
+			
+	tabel produk : 
+	CREATE TABLE produk (
+	id int AUTO_INCREMENT PRIMARY KEY,
+				    kategori_id int,
+				    nama varchar(255),
+				    harga double,
+				    foto varchar(255) null,
+				    detail text,
+				    ketersedian_stok ENUM('habis', 'tersedia') DEFAULT ('tersedia'),
+				    INDEX (nama),
+				    CONSTRAINT kategori_produk
+				    FOREIGN KEY (kategori_id) REFERENCES kategori(id)
+				    ON DELETE RESTRICT
+				)
+
+2. Untuk PASSWORD :
+	https://bcrypt.online/
+	admin
+	admin
+
+3. Buat koneksi database :
+4. untuk password verivay has :
+	https://www.php.net/manual/en/function.password-verify.php
+	
+5. https://imagecolorpicker.com/color-code/220360
+
+6. untuk refresh halaman setalah di input.
+	<meta http-equiv="refresh" content="3; url=kategori.php">
+	menggunakan metta:redirect
+
+	
+	
