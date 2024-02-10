@@ -1,0 +1,81 @@
+.warna1 {
+  background-color: #ffe7c1;
+}
+.warna2 {
+  background-color: #f3ccf3;
+}
+
+.warna3 {
+  background-color: #e9a8f2;
+}
+
+.warna4 {
+  background-color: #dc84f3;
+}
+
+.banner {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image-toko/2.jpg);
+  background-size: cover;
+}
+
+.banner-produk {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image-toko/1.jpg);
+  background-size: cover;
+}
+
+.higlight-kategori {
+  height: 250px;
+  /* border: solid; */
+}
+.btn.warna3:hover {
+  background-color: #f3ccf3;
+}
+
+.higlight-kategori a {
+  text-decoration: none;
+  color: inherit; /* Inherit the color from the parent (.text-white) */
+}
+.higlight-kategori a:hover {
+  color: #dc84f3;
+}
+
+.kategori-baju-pria {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image-toko/baju-pria.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.kategori-baju-wanita {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image-toko/baju-wanita.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.kategori-sepatu {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image-toko/baju-sepatu.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-harga {
+  font-size: 18px;
+  color: #dc84f3;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.list-group a{
+  text-decoration: none;
+  color: inherit; /* Inherit the color from the parent (.text-white) */
+}
+

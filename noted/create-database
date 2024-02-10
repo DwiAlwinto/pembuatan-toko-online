@@ -41,6 +41,8 @@ Membuat Database :
 6. untuk refresh halaman setalah di input.
 	<meta http-equiv="refresh" content="3; url=kategori.php">
 	menggunakan metta:redirect
+7. untuk upload foto 
+	https://www.w3schools.com/php/php_file_upload.asp
 
 	
 	

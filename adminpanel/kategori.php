@@ -5,11 +5,8 @@
     //database category
     $queryKatergori = mysqli_query($koneksi, "SELECT * FROM kategori");
     $jumlahKategori = mysqli_num_rows($queryKatergori);
-
-    //database produk
-    $queryProduk = mysqli_query($koneksi, "SELECT * from produk");
-    $jumlahProduk = mysqli_num_rows($queryProduk);
-
+    //var_dump($jumlahKategori);
+    
 ?>
 
 <!DOCTYPE html>
@@ -51,7 +48,7 @@
             <form action="" method="post" >
                 <div class="mb-3">
                     <label for="kategori" class="form-label">Kategori</label>
-                    <input type="text" name="kategori" class="form-control" id="kategori" placeholder="Input nama kategori" >
+                    <input type="text" name="kategori" class="form-control" id="kategori" placeholder="Input nama kategori" required >
                 </div>
                 <button type="submit" class="btn btn-dark text-white" name="bSimpan">Simpan Kategori</button>
                     <!-- <div class="alert alert-danger mt-3" role="alert">
@@ -119,13 +116,13 @@
                         <?php
                             } else {
                                
-                                while ($dataKategori = mysqli_fetch_array($queryKatergori)) {
+                                while($dataKategori = mysqli_fetch_array($queryKatergori)) {
                         ?>
                                 <tr>
                                     <td> <?php echo $jumlah; ?> </td>
                                     <td> <?php echo $dataKategori['nama']; ?> </td>
                                     <td>
-                                        <a href="http:kategori-detail.php?p=<?php echo $dataKategori['id']; ?>" class="btn btn-dark">
+                                        <a href="kategori-detail.php?p=<?php echo $dataKategori['id']; ?>" class="btn btn-dark">
                                         <i class="fa-solid fa-pen-nib" style="color: #FFD43B;"></i>
                                         </a>
                                     </td>

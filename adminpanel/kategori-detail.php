@@ -76,6 +76,22 @@
             }
 
             if (isset($_POST['deletBtn'])) {
+                //pengecekan kategori ada tidak di database
+                $queryCheckKategori = mysqli_query($koneksi, "SELECT * FROM produk WHERE kategori_id='$id' "); //ini menggunakan on delete restrick
+                $jumlahDataKategori = mysqli_num_rows($queryCheckKategori);
+                echo $jumlahDataKategori;
+                //die(); //maksud ya sampai sini aja diproses.
+
+                //pengecekan
+                if ($jumlahDataKategori > 0) {
+                    ?>
+                    <div class="alert alert-warning mt-3 container ">
+                        Nama Kategori ini tidak bisa di HAPUS karena sudah digunakan di PRODUK.
+                    </div>
+                    <?php
+                    die();
+                }
+
                 $queryDelete = mysqli_query($koneksi, "DELETE FROM kategori WHERE id='$id' ");
                 if ($queryDelete) {
                     ?>

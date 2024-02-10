@@ -14,7 +14,7 @@
             <a class="nav-link text-white" href="kategori.php">Kategori</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-white" href="#">Produk</a>
+            <a class="nav-link text-white" href="produk.php">Produk</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="login.php"><i class="fa-solid fa-right-from-bracket" style="color: #FFD43B;"></i></a>

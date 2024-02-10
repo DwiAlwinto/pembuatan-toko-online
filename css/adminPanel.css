@@ -13,3 +13,9 @@
         p .no-decoration:hover{
             color: white;
         }
+
+        form div{
+            margin-bottom: 10px;
+        }
+
+
